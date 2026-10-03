@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/damir-lebedev/OpenPlaneProject">
+    <img src="https://raw.githubusercontent.com/damir-lebedev/OpenPlaneProject/main/docs/images/banner.svg" alt="OpenPlane" width="100%">
+  </a>
+</p>
+
 <h1 align="center">Hi, I'm Damir 👋</h1>
 
 <p align="center">
@@ -30,6 +36,11 @@ An open-source flight controller and autopilot for RC airplanes. The same firmwa
 | 📡 **Telemetry** | Web dashboard on board, MAVLink to QGroundControl / Mission Planner (frames checked byte for byte against `pymavlink`) |
 | 📼 **Black box** | Every flight recorded at 500 Hz: to on-board flash (ESP32-S3) or an SD card (STM32), decoded to CSV by a Python tool |
 | 🧪 **Verification** | 387 automated tests, 98% line coverage, closed-loop flight simulations of every mode, 24 board × sensor builds with zero warnings |
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/damir-lebedev/OpenPlaneProject/main/docs/images/sim/replay_rth.gif" alt="Radio lost: the plane flies home and circles" width="480"><br>
+  <sub>Radio switched off — the plane returns home on its own. Closed-loop simulation of the real firmware.</sub>
+</p>
 
 **Where it really stands:** the first prototype flew in manual mode; the autopilot is verified on the bench, in tests and in simulation, and is waiting for flight trials. The STM32H743 board is already [driven from a transmitter](https://t.me/lisnmylife/420) (iBUS, ARM, servos and motor) — sensors come next.
 
