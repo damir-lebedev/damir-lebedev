@@ -40,27 +40,19 @@
   <img src="https://img.shields.io/badge/Python-tooling-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
 </p>
 
+<p align="center" dir="ltr">
+  ⚙️ <b>1</b> firmware · <b>2</b> MCUs
+  &nbsp;·&nbsp;
+  ⏱️ <b>500 Hz</b> control loop
+  &nbsp;·&nbsp;
+  🧪 <b>387</b> tests
+  &nbsp;·&nbsp;
+  📊 <b>98%</b> coverage
+</p>
+
+<p align="center">🌍 <b>Open to remote roles worldwide</b> &nbsp;·&nbsp; 📧 <a href="mailto:dam.lebedev2018@yandex.ru">dam.lebedev2018@yandex.ru</a></p>
+
 I design hardware-agnostic embedded systems from scratch — and prove them with tests.
-
----
-
-## 🌌 Ad astra
-
-My goal is simple: **I want to work on things that go to space.** Today that is RC airplanes and UAV autopilots; the direction is aerospace — flight software that has to work the first time, with nobody around to press reset.
-
-Space belongs to no single country, so this profile doesn't speak a single language either — pick yours at the top.
-
----
-
-## 🧭 How I build
-
-| | |
-|---|---|
-| 🧱 **Hardware-agnostic** | A thin HAL is the only layer that knows the MCU. Drivers don't know which bus they sit on. |
-| 🛡️ **Fail-safe first** | Failure behaviour and state machines are designed before features, not after. |
-| ⏱️ **Deterministic** | Fixed-rate control loops, no dynamic memory where it matters. |
-| 🧪 **Proven, not promised** | Host builds, closed-loop simulation, coverage, static analysis and CI on every change. |
-| 🤝 **AI-assisted, human-owned** | AI helps me move faster; the architecture and the verification stay in my own hands. |
 
 ---
 
@@ -108,6 +100,24 @@ Also: [esp32-rc-joystick](https://github.com/damir-lebedev/esp32-rc-joystick) �
 | **Interfaces** | I2C, SPI, UART, SDMMC, iBUS, UBX (GPS), MAVLink |
 | **Quality** | Unity test framework, native (host) test builds, gcovr, cppcheck, clang-tidy, GitHub Actions |
 | **Tools** | Git, Linux, Wi-Fi / HTTP telemetry, KiCad |
+
+---
+
+## 🧭 How I build
+
+| | |
+|---|---|
+| 🛡️ **Fail-safe first** | Failure behaviour and state machines are designed before features, not after. |
+| 🧪 **Proven, not promised** | Host builds, closed-loop simulation, coverage, static analysis and CI on every change. |
+| 🤝 **AI-assisted, human-owned** | AI helps me move faster; the architecture and the verification stay in my own hands. |
+
+---
+
+## 🌌 Ad astra
+
+My goal is simple: **I want to work on things that go to space.** Today that is RC airplanes and UAV autopilots; the direction is aerospace — flight software that has to work the first time, with nobody around to press reset.
+
+Space belongs to no single country, so this profile doesn't speak a single language either — pick yours at the top.
 
 ---
 

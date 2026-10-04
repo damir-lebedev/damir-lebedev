@@ -40,27 +40,19 @@
   <img src="https://img.shields.io/badge/Python-tooling-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
 </p>
 
+<p align="center" dir="ltr">
+  ⚙️ <b>1</b> Firmware · <b>2</b> MCUs
+  &nbsp;·&nbsp;
+  ⏱️ <b>500-Hz</b>-Regelschleife
+  &nbsp;·&nbsp;
+  🧪 <b>387</b> Tests
+  &nbsp;·&nbsp;
+  📊 <b>98 %</b> Abdeckung
+</p>
+
+<p align="center">🌍 <b>Offen für Remote-Stellen weltweit</b> &nbsp;·&nbsp; 📧 <a href="mailto:dam.lebedev2018@yandex.ru">dam.lebedev2018@yandex.ru</a></p>
+
 Ich entwerfe hardwareunabhängige Embedded-Systeme von Grund auf — und beweise sie mit Tests.
-
----
-
-## 🌌 Ad astra
-
-Mein Ziel ist einfach: **Ich will an Dingen arbeiten, die ins All fliegen.** Heute sind das RC-Flugzeuge und UAV-Autopiloten; die Richtung ist Luft- und Raumfahrt — Flugsoftware, die auf Anhieb funktionieren muss, ohne dass jemand in der Nähe den Reset-Knopf drücken kann.
-
-Der Weltraum gehört keinem einzelnen Land, deshalb spricht auch dieses Profil nicht nur eine Sprache — such dir oben deine aus.
-
----
-
-## 🧭 Wie ich baue
-
-| | |
-|---|---|
-| 🧱 **Hardwareunabhängig** | Eine schlanke HAL ist die einzige Schicht, die den MCU kennt. Treiber wissen nicht, an welchem Bus sie hängen. |
-| 🛡️ **Ausfallsicherheit zuerst** | Fehlerverhalten und Zustandsautomaten werden vor den Features entworfen, nicht danach. |
-| ⏱️ **Deterministisch** | Regelschleifen mit fester Frequenz, kein dynamischer Speicher, wo es darauf ankommt. |
-| 🧪 **Bewiesen, nicht versprochen** | Host-Builds, Closed-Loop-Simulation, Coverage, statische Analyse und CI bei jeder Änderung. |
-| 🤝 **KI hilft, der Mensch entscheidet** | KI macht mich schneller; Architektur und Verifikation bleiben in meiner Hand. |
 
 ---
 
@@ -108,6 +100,24 @@ Außerdem: [esp32-rc-joystick](https://github.com/damir-lebedev/esp32-rc-joystic
 | **Schnittstellen** | I2C, SPI, UART, SDMMC, iBUS, UBX (GPS), MAVLink |
 | **Qualität** | Unity, native (Host-)Test-Builds, gcovr, cppcheck, clang-tidy, GitHub Actions |
 | **Werkzeuge** | Git, Linux, Wi-Fi-/HTTP-Telemetrie, KiCad |
+
+---
+
+## 🧭 Wie ich baue
+
+| | |
+|---|---|
+| 🛡️ **Ausfallsicherheit zuerst** | Fehlerverhalten und Zustandsautomaten werden vor den Features entworfen, nicht danach. |
+| 🧪 **Bewiesen, nicht versprochen** | Host-Builds, Closed-Loop-Simulation, Coverage, statische Analyse und CI bei jeder Änderung. |
+| 🤝 **KI hilft, der Mensch entscheidet** | KI macht mich schneller; Architektur und Verifikation bleiben in meiner Hand. |
+
+---
+
+## 🌌 Ad astra
+
+Mein Ziel ist einfach: **Ich will an Dingen arbeiten, die ins All fliegen.** Heute sind das RC-Flugzeuge und UAV-Autopiloten; die Richtung ist Luft- und Raumfahrt — Flugsoftware, die auf Anhieb funktionieren muss, ohne dass jemand in der Nähe den Reset-Knopf drücken kann.
+
+Der Weltraum gehört keinem einzelnen Land, deshalb spricht auch dieses Profil nicht nur eine Sprache — such dir oben deine aus.
 
 ---
 

@@ -40,27 +40,19 @@
   <img src="https://img.shields.io/badge/Python-tooling-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
 </p>
 
+<p align="center" dir="ltr">
+  ⚙️ <b>1</b> firmware · <b>2</b> MCUs
+  &nbsp;·&nbsp;
+  ⏱️ laço de controle a <b>500 Hz</b>
+  &nbsp;·&nbsp;
+  🧪 <b>387</b> testes
+  &nbsp;·&nbsp;
+  📊 <b>98%</b> de cobertura
+</p>
+
+<p align="center">🌍 <b>Aberto a vagas remotas em qualquer lugar do mundo</b> &nbsp;·&nbsp; 📧 <a href="mailto:dam.lebedev2018@yandex.ru">dam.lebedev2018@yandex.ru</a></p>
+
 Projeto do zero sistemas embarcados independentes de hardware — e comprovo tudo com testes.
-
----
-
-## 🌌 Ad astra
-
-Meu objetivo é simples: **quero trabalhar em coisas que vão para o espaço.** Hoje são aviões RC e autopilotos para UAVs; o rumo é o setor aeroespacial — software de voo que precisa funcionar de primeira, sem ninguém por perto para apertar o reset.
-
-O espaço não pertence a um único país, então este perfil também não fala um único idioma — escolha o seu lá em cima.
-
----
-
-## 🧭 Como eu construo
-
-| | |
-|---|---|
-| 🧱 **Independente de hardware** | Uma HAL fina é a única camada que conhece o MCU. Os drivers não sabem em qual barramento estão. |
-| 🛡️ **Tolerância a falhas primeiro** | O comportamento em falhas e as máquinas de estados são projetados antes das funcionalidades, não depois. |
-| ⏱️ **Determinístico** | Laços de controle com frequência fixa, sem memória dinâmica onde importa. |
-| 🧪 **Comprovado, não prometido** | Builds no host, simulação em malha fechada, cobertura, análise estática e CI a cada mudança. |
-| 🤝 **IA ajuda, a decisão é humana** | A IA me deixa mais rápido; a arquitetura e a verificação continuam nas minhas mãos. |
 
 ---
 
@@ -108,6 +100,24 @@ Também: [esp32-rc-joystick](https://github.com/damir-lebedev/esp32-rc-joystick)
 | **Interfaces** | I2C, SPI, UART, SDMMC, iBUS, UBX (GPS), MAVLink |
 | **Qualidade** | Unity, builds de teste nativos (host), gcovr, cppcheck, clang-tidy, GitHub Actions |
 | **Ferramentas** | Git, Linux, telemetria Wi-Fi / HTTP, KiCad |
+
+---
+
+## 🧭 Como eu construo
+
+| | |
+|---|---|
+| 🛡️ **Tolerância a falhas primeiro** | O comportamento em falhas e as máquinas de estados são projetados antes das funcionalidades, não depois. |
+| 🧪 **Comprovado, não prometido** | Builds no host, simulação em malha fechada, cobertura, análise estática e CI a cada mudança. |
+| 🤝 **IA ajuda, a decisão é humana** | A IA me deixa mais rápido; a arquitetura e a verificação continuam nas minhas mãos. |
+
+---
+
+## 🌌 Ad astra
+
+Meu objetivo é simples: **quero trabalhar em coisas que vão para o espaço.** Hoje são aviões RC e autopilotos para UAVs; o rumo é o setor aeroespacial — software de voo que precisa funcionar de primeira, sem ninguém por perto para apertar o reset.
+
+O espaço não pertence a um único país, então este perfil também não fala um único idioma — escolha o seu lá em cima.
 
 ---
 

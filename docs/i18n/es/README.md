@@ -40,27 +40,19 @@
   <img src="https://img.shields.io/badge/Python-tooling-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
 </p>
 
+<p align="center" dir="ltr">
+  ⚙️ <b>1</b> firmware · <b>2</b> MCU
+  &nbsp;·&nbsp;
+  ⏱️ bucle de control a <b>500 Hz</b>
+  &nbsp;·&nbsp;
+  🧪 <b>387</b> tests
+  &nbsp;·&nbsp;
+  📊 <b>98 %</b> de cobertura
+</p>
+
+<p align="center">🌍 <b>Disponible para trabajo remoto en todo el mundo</b> &nbsp;·&nbsp; 📧 <a href="mailto:dam.lebedev2018@yandex.ru">dam.lebedev2018@yandex.ru</a></p>
+
 Diseño desde cero sistemas embebidos independientes del hardware — y los demuestro con tests.
-
----
-
-## 🌌 Ad astra
-
-Mi objetivo es simple: **quiero trabajar en cosas que van al espacio.** Hoy son aviones RC y autopilotos para UAV; el rumbo es el sector aeroespacial: software de vuelo que tiene que funcionar a la primera, sin nadie cerca que pueda pulsar reset.
-
-El espacio no pertenece a un solo país, así que este perfil tampoco habla un solo idioma: elige el tuyo arriba.
-
----
-
-## 🧭 Cómo construyo
-
-| | |
-|---|---|
-| 🧱 **Independiente del hardware** | Una HAL fina es la única capa que conoce el MCU. Los drivers no saben en qué bus están. |
-| 🛡️ **Primero la tolerancia a fallos** | El comportamiento ante fallos y las máquinas de estados se diseñan antes que las funciones, no después. |
-| ⏱️ **Determinista** | Bucles de control a frecuencia fija, sin memoria dinámica donde importa. |
-| 🧪 **Demostrado, no prometido** | Compilaciones en host, simulación en lazo cerrado, cobertura, análisis estático y CI en cada cambio. |
-| 🤝 **IA como ayuda, el control es mío** | La IA me hace más rápido; la arquitectura y la verificación siguen en mis manos. |
 
 ---
 
@@ -108,6 +100,24 @@ También: [esp32-rc-joystick](https://github.com/damir-lebedev/esp32-rc-joystick
 | **Interfaces** | I2C, SPI, UART, SDMMC, iBUS, UBX (GPS), MAVLink |
 | **Calidad** | Unity, compilaciones de test nativas (host), gcovr, cppcheck, clang-tidy, GitHub Actions |
 | **Herramientas** | Git, Linux, telemetría Wi-Fi / HTTP, KiCad |
+
+---
+
+## 🧭 Cómo construyo
+
+| | |
+|---|---|
+| 🛡️ **Primero la tolerancia a fallos** | El comportamiento ante fallos y las máquinas de estados se diseñan antes que las funciones, no después. |
+| 🧪 **Demostrado, no prometido** | Compilaciones en host, simulación en lazo cerrado, cobertura, análisis estático y CI en cada cambio. |
+| 🤝 **IA como ayuda, el control es mío** | La IA me hace más rápido; la arquitectura y la verificación siguen en mis manos. |
+
+---
+
+## 🌌 Ad astra
+
+Mi objetivo es simple: **quiero trabajar en cosas que van al espacio.** Hoy son aviones RC y autopilotos para UAV; el rumbo es el sector aeroespacial: software de vuelo que tiene que funcionar a la primera, sin nadie cerca que pueda pulsar reset.
+
+El espacio no pertenece a un solo país, así que este perfil tampoco habla un solo idioma: elige el tuyo arriba.
 
 ---
 

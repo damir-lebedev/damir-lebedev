@@ -40,27 +40,19 @@
   <img src="https://img.shields.io/badge/Python-tooling-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
 </p>
 
+<p align="center" dir="ltr">
+  ⚙️ <b>1</b> firmware · <b>2</b> MCU
+  &nbsp;·&nbsp;
+  ⏱️ boucle de contrôle à <b>500 Hz</b>
+  &nbsp;·&nbsp;
+  🧪 <b>387</b> tests
+  &nbsp;·&nbsp;
+  📊 <b>98 %</b> de couverture
+</p>
+
+<p align="center">🌍 <b>Disponible pour du télétravail partout dans le monde</b> &nbsp;·&nbsp; 📧 <a href="mailto:dam.lebedev2018@yandex.ru">dam.lebedev2018@yandex.ru</a></p>
+
 Je conçois de zéro des systèmes embarqués indépendants du matériel — et je le prouve par des tests.
-
----
-
-## 🌌 Ad astra
-
-Mon objectif est simple : **je veux travailler sur des choses qui vont dans l'espace.** Aujourd'hui, ce sont des avions RC et des pilotes automatiques pour drones ; le cap, c'est l'aérospatial — du logiciel de vol qui doit fonctionner du premier coup, sans personne pour appuyer sur reset.
-
-L'espace n'appartient à aucun pays, donc ce profil ne parle pas non plus une seule langue — choisissez la vôtre en haut.
-
----
-
-## 🧭 Ma façon de construire
-
-| | |
-|---|---|
-| 🧱 **Indépendant du matériel** | Une HAL mince est la seule couche qui connaît le MCU. Les pilotes ignorent sur quel bus ils sont. |
-| 🛡️ **La sûreté de fonctionnement d'abord** | Le comportement en cas de panne et les machines à états sont conçus avant les fonctionnalités, pas après. |
-| ⏱️ **Déterministe** | Boucles de contrôle à fréquence fixe, pas d'allocation dynamique là où ça compte. |
-| 🧪 **Prouvé, pas promis** | Builds sur hôte, simulation en boucle fermée, couverture, analyse statique et CI à chaque changement. |
-| 🤝 **L'IA aide, l'humain décide** | L'IA me fait avancer plus vite ; l'architecture et la vérification restent entre mes mains. |
 
 ---
 
@@ -108,6 +100,24 @@ Aussi : [esp32-rc-joystick](https://github.com/damir-lebedev/esp32-rc-joystick) 
 | **Interfaces** | I2C, SPI, UART, SDMMC, iBUS, UBX (GPS), MAVLink |
 | **Qualité** | Unity, builds de test natifs (hôte), gcovr, cppcheck, clang-tidy, GitHub Actions |
 | **Outils** | Git, Linux, télémétrie Wi-Fi / HTTP, KiCad |
+
+---
+
+## 🧭 Ma façon de construire
+
+| | |
+|---|---|
+| 🛡️ **La sûreté de fonctionnement d'abord** | Le comportement en cas de panne et les machines à états sont conçus avant les fonctionnalités, pas après. |
+| 🧪 **Prouvé, pas promis** | Builds sur hôte, simulation en boucle fermée, couverture, analyse statique et CI à chaque changement. |
+| 🤝 **L'IA aide, l'humain décide** | L'IA me fait avancer plus vite ; l'architecture et la vérification restent entre mes mains. |
+
+---
+
+## 🌌 Ad astra
+
+Mon objectif est simple : **je veux travailler sur des choses qui vont dans l'espace.** Aujourd'hui, ce sont des avions RC et des pilotes automatiques pour drones ; le cap, c'est l'aérospatial — du logiciel de vol qui doit fonctionner du premier coup, sans personne pour appuyer sur reset.
+
+L'espace n'appartient à aucun pays, donc ce profil ne parle pas non plus une seule langue — choisissez la vôtre en haut.
 
 ---
 
