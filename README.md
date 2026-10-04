@@ -1,17 +1,38 @@
 <p align="center">
-  <a href="https://github.com/damir-lebedev/OpenPlaneProject">
-    <img src="https://raw.githubusercontent.com/damir-lebedev/OpenPlaneProject/main/docs/images/banner.svg" alt="OpenPlane" width="100%">
-  </a>
+  <img src="docs/images/flags/gb.svg" height="14" alt="">&nbsp;<b>English</b>
+  ·
+  <a href="docs/i18n/ru/README.md"><img src="docs/images/flags/ru.svg" height="14" alt="">&nbsp;Русский</a>
+  ·
+  <a href="docs/i18n/zh-CN/README.md"><img src="docs/images/flags/cn.svg" height="14" alt="">&nbsp;中文</a>
+  ·
+  <a href="docs/i18n/es/README.md"><img src="docs/images/flags/es.svg" height="14" alt="">&nbsp;Español</a>
+  ·
+  <a href="docs/i18n/hi/README.md"><img src="docs/images/flags/in.svg" height="14" alt="">&nbsp;हिन्दी</a>
+  ·
+  <a href="docs/i18n/ar/README.md"><img src="docs/images/flags/sa.svg" height="14" alt="">&nbsp;العربية</a>
+  ·
+  <a href="docs/i18n/pt-BR/README.md"><img src="docs/images/flags/br.svg" height="14" alt="">&nbsp;Português</a>
+  ·
+  <a href="docs/i18n/fr/README.md"><img src="docs/images/flags/fr.svg" height="14" alt="">&nbsp;Français</a>
+  ·
+  <a href="docs/i18n/de/README.md"><img src="docs/images/flags/de.svg" height="14" alt="">&nbsp;Deutsch</a>
+  ·
+  <a href="docs/i18n/ja/README.md"><img src="docs/images/flags/jp.svg" height="14" alt="">&nbsp;日本語</a>
+  ·
+  <a href="docs/i18n/ko/README.md"><img src="docs/images/flags/kr.svg" height="14" alt="">&nbsp;한국어</a>
+</p>
+
+<p align="center">
+  <img src="docs/images/banner.svg" alt="Damir Lebedev — from RC airplanes to orbit" width="100%">
 </p>
 
 <h1 align="center">Hi, I'm Damir 👋</h1>
 
 <p align="center">
-  <b>Firmware Engineer · Software Architect</b><br>
-  Reliable, modular, mission-critical embedded systems in modern C++ and RTOS.
+  <b>Reliable, modular, mission-critical embedded systems<br>in modern C++ and RTOS.</b>
 </p>
 
-<p align="center">
+<p align="center" dir="ltr">
   <img src="https://img.shields.io/badge/C%2B%2B-header--only-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
   <img src="https://img.shields.io/badge/FreeRTOS-dual--core-3fb950?style=for-the-badge" alt="FreeRTOS">
   <img src="https://img.shields.io/badge/ESP32--S3-flight%20ready-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32-S3">
@@ -19,7 +40,27 @@
   <img src="https://img.shields.io/badge/Python-tooling-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
 </p>
 
-I design hardware-agnostic systems from scratch: a thin HAL under everything, drivers that don't know which bus they sit on, and tests that prove it. I work with AI-assisted development and keep the architecture and the verification in my own hands.
+I design hardware-agnostic embedded systems from scratch — and prove them with tests.
+
+---
+
+## 🌌 Ad astra
+
+My goal is simple: **I want to work on things that go to space.** Today that is RC airplanes and UAV autopilots; the direction is aerospace — flight software that has to work the first time, with nobody around to press reset.
+
+Space belongs to no single country, so this profile doesn't speak a single language either — pick yours at the top.
+
+---
+
+## 🧭 How I build
+
+| | |
+|---|---|
+| 🧱 **Hardware-agnostic** | A thin HAL is the only layer that knows the MCU. Drivers don't know which bus they sit on. |
+| 🛡️ **Fail-safe first** | Failure behaviour and state machines are designed before features, not after. |
+| ⏱️ **Deterministic** | Fixed-rate control loops, no dynamic memory where it matters. |
+| 🧪 **Proven, not promised** | Host builds, closed-loop simulation, coverage, static analysis and CI on every change. |
+| 🤝 **AI-assisted, human-owned** | AI helps me move faster; the architecture and the verification stay in my own hands. |
 
 ---
 
@@ -42,9 +83,15 @@ An open-source flight controller and autopilot for RC airplanes. The same firmwa
   <sub>Radio switched off — the plane returns home on its own. Closed-loop simulation of the real firmware.</sub>
 </p>
 
-**Where it really stands:** the first prototype flew in manual mode; the autopilot is verified on the bench, in tests and in simulation, and is waiting for flight trials. The STM32H743 board is already [driven from a transmitter](https://t.me/lisnmylife/420) (iBUS, ARM, servos and motor) — sensors come next.
+### 📍 Where it really stands
 
-I keep the status table in that README honest on purpose: what flew, what ran on a bench, what is only tested.
+| | |
+|---|---|
+| ✈️ **First prototype, manual mode** | Flown |
+| 🧪 **Autopilot** | Verified on the bench, in tests and in simulation — waiting for flight trials |
+| 🔌 **STM32H743 board** | Already [driven from a transmitter](https://t.me/lisnmylife/420) (iBUS, ARM, servos and motor) — sensors come next |
+
+I keep the status table in the OpenPlane README honest on purpose: what flew, what ran on a bench, what is only tested.
 
 Also: [esp32-rc-joystick](https://github.com/damir-lebedev/esp32-rc-joystick) — a FlySky FS-i6 as a USB joystick for flight simulators.
 
@@ -66,6 +113,8 @@ Also: [esp32-rc-joystick](https://github.com/damir-lebedev/esp32-rc-joystick) �
 
 ## 💼 Looking for
 
-**Mid-level / strong Junior+ Embedded Firmware Engineer** or **Software Architect** — remote roles in robotics, UAVs, aerospace, IoT or high-load hardware systems.
+**Mid-level / strong Junior+ Embedded Firmware Engineer** or **Software Architect** — remote roles anywhere in the world: robotics, UAVs, aerospace and space systems, IoT, high-load hardware.
 
 📧 **dam.lebedev2018@yandex.ru** · 🐙 [OpenPlane on GitHub](https://github.com/damir-lebedev/OpenPlaneProject)
+
+<p align="center"><sub>Per aspera ad astra ✦</sub></p>
